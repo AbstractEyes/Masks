@@ -1,0 +1,293 @@
+{
+	"masks": {
+		"vampire": {
+			"mask-class": "com.abstractphil.masks.masks.VampireMask",
+			"name": "vampire",
+			"display-name": "&c&lVampire Mask",
+			"transferred-lore": [
+				"&c&lVAMPIRE MASK I"
+			],
+			"lore": [
+				"",
+				"   &4&lABILITY: &7Have a 10% chance to heal a",
+				"   &7heart from each hit taken",
+				"",
+				"  &4&lEQUIP TO: &c&lHelmet",
+				"",
+				"  &7&o( ~ Attach this Mask to &f&oactivate&7&o. ~ )",
+				""
+			],
+			"args": [0.10, 0.5],
+			"mask-material": "SKULL_ITEM",
+			"skull-owner": "MHF_HeroBrine"
+		},
+		"blaze": {
+			"mask-class": "com.abstractphil.masks.masks.BlazeMask",
+			"name": "blaze",
+			"display-name": "&e&lBlaze Mask",
+			"transferred-lore": [
+				"&e&lBLAZE MASK  I"
+			],
+			"lore": [
+				"",
+				"   &6&lABILITY: &7Have a 3% chance to deal",
+				"   &720% weapon damage per second for 10 seconds",
+				"",
+				"  &6&lEQUIP TO: &e&lHelmet",
+				"",
+				"  &7&o( ~ Attach this Mask to &f&oactivate&7&o. ~ )",
+				""
+			],
+			"args": [0.03, 0.20, 10],
+			"mask-material": "SKULL_ITEM",
+			"skull-owner": "MHF_Blaze"
+		},
+		"poison": {
+			"mask-class": "com.abstractphil.masks.masks.PoisonMask",
+			"name": "poison",
+			"display-name": "&2&lPoison Mask",
+			"transferred-lore": [
+				"&2&lPOISON MASK I"
+			],
+			"lore": [
+				"",
+				"   &a&lABILITY: &7Have a 5% chance to deal",
+				"   &715% weapon damage per second for 10 seconds",
+				"",
+				"  &a&lEQUIP TO: &2&lHelmet",
+				"",
+				"  &7&o( ~ Attach this Mask to &f&oactivate&7&o. ~ )",
+				""
+			],
+			"args": [0.05, 0.15, 10],
+			"mask-material": "SKULL_ITEM",
+			"skull-owner": "MHF_Spider"
+		},
+		"cow": {
+			"mask-class": "com.abstractphil.masks.masks.CowMask",
+			"name": "cow",
+			"display-name": "&6&lCow Mask",
+			"transferred-lore": [
+				"&6&lCOW MASK I"
+			],
+			"lore": [
+				"",
+				"   &e&lABILITY: &7Have a 25% chance to restore a",
+				"   &7random negative potion effect every second.",
+				"",
+				"  &e&lEQUIP TO: &6&lHelmet",
+				"",
+				"  &7&o( ~ Attach this Mask to &f&oactivate&7&o. ~ )",
+				""
+			],
+			"args": [25, 20],
+			"mask-material": "SKULL_ITEM",
+			"skull-owner": "MHF_Cow"
+		},
+		"guardian": {
+			"mask-class": "com.abstractphil.masks.masks.GuardianMask",
+			"name": "guardian",
+			"display-name": "&3&lGuardian Mask",
+			"transferred-lore": [
+				"&3&lGUARDIAN MASK I"
+			],
+			"lore": [
+				"",
+				"   &b&lABILITY: &7Have a constant Resistance 2",
+				"   &7effect when the Mask is attached.",
+				"",
+				"  &b&lEQUIP TO: &3&lHelmet",
+				"",
+				"  &7&o( ~ Attach this Mask to &f&oactivate&7&o. ~ )",
+				""
+			],
+			"args": [1],
+			"mask-material": "SKULL_ITEM",
+			"skull-owner": "MHF_Guardian"
+		},
+		"ghast": {
+			"mask-class": "com.abstractphil.masks.masks.GhastMask",
+			"name": "ghast",
+			"display-name": "&f&lGhast Mask",
+			"transferred-lore": [
+				"&f&lGHAST MASK I"
+			],
+			"lore": [
+				"",
+				"   &b&lABILITY: &7Gain constant Regeneration 1 and",
+				"   &7Weakness 1 effect when the Mask is attached.",
+				"",
+				"  &f&lEQUIP TO: Helmet",
+				"",
+				"  &7&o( ~ Attach this Mask to &f&oactivate&7&o. ~ )",
+				""
+			],
+			"args": [0, 0],
+			"mask-material": "SKULL_ITEM",
+			"skull-owner": "MHF_Ghast"
+		},
+		"horse": {
+			"mask-class": "com.abstractphil.masks.masks.HorseMask",
+			"name": "horse",
+			"display-name": "&6&lHorse Mask",
+			"transferred-lore": [
+				"&6&lHORSE MASK I"
+			],
+			"lore": [
+				"",
+				"   &e&lABILITY: &7Gain constant Speed 2 and",
+				"   &7Jump Boost 1 effect when the Mask is attached.",
+				"",
+				"  &e&lEQUIP TO: &6&lHelmet",
+				"",
+				"  &7&o( ~ Attach this Mask to &f&oactivate&7&o. ~ )",
+				""
+			],
+			"args": [1, 0],
+			"mask-material": "SKULL_ITEM",
+			"skull-owner": "gavertoso"
+		},
+		"irongolem": {
+			"mask-class": "com.abstractphil.masks.masks.IronGolemMask",
+			"name": "golem",
+			"display-name": "&f&lIron Golem Mask",
+			"transferred-lore": [
+				"&f&lIRON GOLEM MASK I"
+			],
+			"lore": [
+				"",
+				"   &b&lABILITY: &7Gain constant Resistance 1 and",
+				"   &7Strength 1 effect when the Mask is attached.",
+				"",
+				"  &f&lEQUIP TO: Helmet",
+				"",
+				"  &7&o( ~ Attach this Mask to &f&oactivate&7&o. ~ )",
+				""
+			],
+			"args": [0, 0],
+			"mask-material": "SKULL_ITEM",
+			"skull-owner": "MHF_Golem"
+		},
+		"pigman": {
+			"mask-class": "com.abstractphil.masks.masks.PigmanMask",
+			"name": "pigman",
+			"display-name": "&d&lPigman Mask",
+			"transferred-lore": [
+				"&d&lPIGMAN MASK I"
+			],
+			"lore": [
+				"",
+				"   &5&lABILITY: &7Gain constant Resistance 2 and",
+				"   &7Strength 1 effect when the Mask is attached.",
+				"",
+				"  &5&lEQUIP TO: &d&lHelmet",
+				"",
+				"  &7&o( ~ Attach this Mask to &f&oactivate&7&o. ~ )",
+				""
+			],
+			"args": [0, 1],
+			"mask-material": "SKULL_ITEM",
+			"skull-owner": "MHF_PigZombie"
+		},
+		"melon": {
+			"mask-class": "com.abstractphil.masks.masks.MelonMask",
+			"name": "melon",
+			"display-name": "&d&lMelon Mask",
+			"transferred-lore": [
+				"&d&lMELON MASK I"
+			],
+			"lore": [
+				"",
+				"   &5&lABILITY: &7Gain lifetap while attached",
+				"",
+				"  &5&lEQUIP TO: &d&lHelmet",
+				"",
+				"  &7&o( ~ Attach this Mask to &f&oactivate&7&o. ~ )",
+				""
+			],
+			"args": [],
+			"mask-material": "SKULL_ITEM",
+			"skull-owner": "MHF_Melon"
+		},
+		"beacon": {
+			"mask-class": "com.abstractphil.masks.masks.BeaconMask",
+			"name": "beacon",
+			"display-name": "&d&lBeacon Mask",
+			"transferred-lore": [
+				"&d&lBEACON MASK I"
+			],
+			"lore": [
+				"",
+				"   &5&lABILITY: &7Adds a chance to mine beacons",
+				"",
+				"  &5&lEQUIP TO: &d&lHelmet",
+				"",
+				"  &7&o( ~ Attach this Mask to &f&oactivate&7&o. ~ )",
+				""
+			],
+			"args": [150000],
+			"mask-material": "SKULL_ITEM",
+			"skull-owner": "2013"
+		},
+		"sponge": {
+			"mask-class": "com.abstractphil.masks.masks.SpongeMask",
+			"name": "sponge",
+			"display-name": "&d&lSponge Mask",
+			"transferred-lore": [
+				"&d&lSPONGE MASK I"
+			],
+			"lore": [
+				"",
+				"   &5&lABILITY: &7Adds a chance to mine sponges",
+				"",
+				"  &5&lEQUIP TO: &d&lHelmet",
+				"",
+				"  &7&o( ~ Attach this Mask to &f&oactivate&7&o. ~ )",
+				""
+			],
+			"args": [100000],
+			"mask-material": "SKULL_ITEM",
+			"skull-owner": "Sponge"
+		},
+		"dragonegg": {
+			"mask-class": "com.abstractphil.masks.masks.DragonsMask",
+			"name": "dragonegg",
+			"display-name": "&d&lDragon Egg Mask",
+			"transferred-lore": [
+				"&d&lDRAGON EGG MASK I"
+			],
+			"lore": [
+				"",
+				"   &5&lABILITY: &7Adds a chance to mine dragon eggs",
+				"",
+				"  &5&lEQUIP TO: &d&lHelmet",
+				"",
+				"  &7&o( ~ Attach this Mask to &f&oactivate&7&o. ~ )",
+				""
+			],
+			"args": [200000],
+			"mask-material": "SKULL_ITEM",
+			"skull-owner": "RuanBR"
+		},
+		"pumpkin": {
+			"mask-class": "com.abstractphil.masks.masks.PumpkinMask",
+			"name": "pumpkin",
+			"display-name": "&d&lPumpkin Mask",
+			"transferred-lore": [
+				"&d&lPUMPKIN MASK I"
+			],
+			"lore": [
+				"",
+				"   &5&lABILITY: &7Improves the amount of pumpkins gained",
+				"",
+				"  &5&lEQUIP TO: &d&lHelmet",
+				"",
+				"  &7&o( ~ Attach this Mask to &f&oactivate&7&o. ~ )",
+				""
+			],
+			"args": [],
+			"mask-material": "SKULL_ITEM",
+			"skull-owner": "Bootleg_"
+		}
+	}
+}

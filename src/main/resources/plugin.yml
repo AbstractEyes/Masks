@@ -1,0 +1,9 @@
+name: RedItems.AbstractMasks
+main: com.abstractphil.masks.Masks
+version: 1.0
+description: "Mask plugin"
+depend: [RedItems]
+commands:
+  givemask:
+    description: givemask.
+    usage: See plugin documentation
